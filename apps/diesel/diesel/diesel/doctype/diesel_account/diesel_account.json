@@ -1,0 +1,375 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "DRV.######",
+ "creation": "2025-05-12 21:37:53.989399",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "incorrect_password",
+  "has_permit_problem",
+  "road_bill_active",
+  "need_to_change_location",
+  "otp_needed_account",
+  "has_relationship_problem",
+  "column_break_wugl",
+  "has_driver_data",
+  "has_truck_data",
+  "has_activity_permit",
+  "has_employment_permit",
+  "has_location_data",
+  "has_default_driver",
+  "has_default_truck",
+  "column_break_qhnh",
+  "automation_enabled",
+  "account_is_enabled",
+  "arrived_target",
+  "has_valid_location",
+  "last_success",
+  "section_break_efhg",
+  "automation_status",
+  "section_break_kcck",
+  "phone_number",
+  "column_break_mluu",
+  "password",
+  "section_break_ajhg",
+  "bot_owner",
+  "column_break_kksa",
+  "status",
+  "section_break_vpyr",
+  "custom_target_submit",
+  "column_break_hhqj",
+  "custom_current_submit",
+  "real_current_submit",
+  "location_details_section",
+  "source_details",
+  "distance",
+  "column_break_dqyq",
+  "destination_detail",
+  "duration",
+  "default_truck_and_driver_section",
+  "driver_national_id",
+  "column_break_aioi",
+  "freighter_id",
+  "truck_detail_section",
+  "truck_capacity",
+  "column_break_ermp",
+  "cargo_weight",
+  "section_break_edtd",
+  "user_name",
+  "get_user_fleet_list",
+  "trucks",
+  "drivers",
+  "success_counter"
+ ],
+ "fields": [
+  {
+   "fieldname": "bot_owner",
+   "fieldtype": "Data",
+   "label": "Bot Owner"
+  },
+  {
+   "fieldname": "user_name",
+   "fieldtype": "JSON",
+   "label": "User Name"
+  },
+  {
+   "fieldname": "get_user_fleet_list",
+   "fieldtype": "JSON",
+   "label": "Get User Fleet List"
+  },
+  {
+   "fieldname": "trucks",
+   "fieldtype": "Table",
+   "label": "Trucks",
+   "options": "Truck"
+  },
+  {
+   "fieldname": "drivers",
+   "fieldtype": "Table",
+   "label": "Drivers",
+   "options": "Driver"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "column_break_mluu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password"
+  },
+  {
+   "fieldname": "section_break_edtd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ajhg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "driver_national_id",
+   "fieldtype": "Data",
+   "label": "Driver National ID"
+  },
+  {
+   "fieldname": "column_break_aioi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "freighter_id",
+   "fieldtype": "Data",
+   "label": "Freighter ID"
+  },
+  {
+   "fieldname": "truck_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Truck Detail"
+  },
+  {
+   "fieldname": "truck_capacity",
+   "fieldtype": "Data",
+   "label": "Truck Capacity"
+  },
+  {
+   "fieldname": "column_break_ermp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cargo_weight",
+   "fieldtype": "Data",
+   "label": "Cargo Weight"
+  },
+  {
+   "fieldname": "source_details",
+   "fieldtype": "JSON",
+   "label": "Source Details"
+  },
+  {
+   "fieldname": "column_break_dqyq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "destination_detail",
+   "fieldtype": "JSON",
+   "label": "Destination Detail"
+  },
+  {
+   "fieldname": "location_details_section",
+   "fieldtype": "Section Break",
+   "label": "Location Details"
+  },
+  {
+   "fieldname": "default_truck_and_driver_section",
+   "fieldtype": "Section Break",
+   "label": "Default Truck and Driver"
+  },
+  {
+   "fieldname": "column_break_kksa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_vpyr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "custom_target_submit",
+   "fieldtype": "Int",
+   "label": "Target Submit"
+  },
+  {
+   "fieldname": "column_break_hhqj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "custom_current_submit",
+   "fieldtype": "Int",
+   "label": "Current Submit"
+  },
+  {
+   "fieldname": "distance",
+   "fieldtype": "Data",
+   "label": "Distance"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "label": "Duration"
+  },
+  {
+   "fieldname": "section_break_kcck",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_location_data",
+   "fieldtype": "Check",
+   "label": "Has Location Data"
+  },
+  {
+   "default": "0",
+   "fieldname": "incorrect_password",
+   "fieldtype": "Check",
+   "label": "Incorrect Password"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_truck_data",
+   "fieldtype": "Check",
+   "label": "Has Truck Data"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_driver_data",
+   "fieldtype": "Check",
+   "label": "Has Driver Data"
+  },
+  {
+   "default": "1",
+   "fieldname": "has_employment_permit",
+   "fieldtype": "Check",
+   "label": "Has Employment Permit"
+  },
+  {
+   "default": "1",
+   "fieldname": "has_activity_permit",
+   "fieldtype": "Check",
+   "label": "Has Activity Permit"
+  },
+  {
+   "default": "0",
+   "fieldname": "automation_enabled",
+   "fieldtype": "Check",
+   "label": "Automation Enabled"
+  },
+  {
+   "default": "1",
+   "fieldname": "account_is_enabled",
+   "fieldtype": "Check",
+   "label": "Account is Enabled"
+  },
+  {
+   "fieldname": "column_break_wugl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qhnh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_default_driver",
+   "fieldtype": "Check",
+   "label": "Has Default Driver"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_default_truck",
+   "fieldtype": "Check",
+   "label": "Has Default Truck"
+  },
+  {
+   "default": "0",
+   "fieldname": "arrived_target",
+   "fieldtype": "Check",
+   "label": "Arrived Target"
+  },
+  {
+   "fieldname": "last_success",
+   "fieldtype": "Datetime",
+   "label": "Last Success"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_valid_location",
+   "fieldtype": "Check",
+   "label": "Has Valid Location"
+  },
+  {
+   "fieldname": "section_break_efhg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "automation_status",
+   "fieldtype": "Small Text",
+   "label": "Automation Status"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_permit_problem",
+   "fieldtype": "Check",
+   "label": "Has Permit Problem"
+  },
+  {
+   "default": "0",
+   "fieldname": "road_bill_active",
+   "fieldtype": "Check",
+   "label": "Road Bill Active"
+  },
+  {
+   "default": "0",
+   "fieldname": "need_to_change_location",
+   "fieldtype": "Check",
+   "label": "Need To Change Location"
+  },
+  {
+   "default": "0",
+   "fieldname": "otp_needed_account",
+   "fieldtype": "Check",
+   "label": "OTP Needed Account"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_relationship_problem",
+   "fieldtype": "Check",
+   "label": "Has Relationship Problem"
+  },
+  {
+   "fieldname": "success_counter",
+   "fieldtype": "Table",
+   "label": "Success Counter",
+   "options": "Success Counter"
+  },
+  {
+   "fieldname": "real_current_submit",
+   "fieldtype": "Int",
+   "label": "Real Current Submit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-05 14:33:44.437925",
+ "modified_by": "Administrator",
+ "module": "Diesel",
+ "name": "Diesel Account",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

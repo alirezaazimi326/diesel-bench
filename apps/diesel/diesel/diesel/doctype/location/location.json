@@ -1,0 +1,165 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-16 16:05:16.230246",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "source_lat",
+  "source_lng",
+  "column_break_ntrf",
+  "destination_lat",
+  "destination_lng",
+  "column_break_htsr",
+  "distance",
+  "duration",
+  "section_break_lzbc",
+  "recommended",
+  "column_break_ymzg",
+  "usabel_in_barbarg",
+  "column_break_pvxo",
+  "same_province",
+  "same_county",
+  "same_district",
+  "section_break_tvxz",
+  "source_details",
+  "destination_detail",
+  "suggest_driver",
+  "section_break_jdns",
+  "geolocation_akgd"
+ ],
+ "fields": [
+  {
+   "fieldname": "source_lat",
+   "fieldtype": "Data",
+   "label": "Source Lat"
+  },
+  {
+   "fieldname": "source_lng",
+   "fieldtype": "Data",
+   "label": "Source Lng"
+  },
+  {
+   "fieldname": "column_break_ntrf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "destination_lat",
+   "fieldtype": "Data",
+   "label": "Destination Lat"
+  },
+  {
+   "fieldname": "destination_lng",
+   "fieldtype": "Data",
+   "label": "Destination Lng"
+  },
+  {
+   "fieldname": "column_break_htsr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "distance",
+   "fieldtype": "Data",
+   "label": "Distance"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "label": "Duration"
+  },
+  {
+   "fieldname": "section_break_tvxz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "suggest_driver",
+   "fieldtype": "Data",
+   "label": "Suggest Driver"
+  },
+  {
+   "fieldname": "source_details",
+   "fieldtype": "JSON",
+   "label": "Source Details"
+  },
+  {
+   "fieldname": "destination_detail",
+   "fieldtype": "JSON",
+   "label": "Destination Detail"
+  },
+  {
+   "fieldname": "section_break_lzbc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ymzg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pvxo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "same_province",
+   "fieldtype": "Check",
+   "label": "Same Province"
+  },
+  {
+   "default": "0",
+   "fieldname": "recommended",
+   "fieldtype": "Check",
+   "label": "Recommended"
+  },
+  {
+   "default": "1",
+   "fieldname": "usabel_in_barbarg",
+   "fieldtype": "Check",
+   "label": "Usabel In Barbarg"
+  },
+  {
+   "fieldname": "section_break_jdns",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "51.419462,35.727144",
+   "fieldname": "geolocation_akgd",
+   "fieldtype": "Geolocation"
+  },
+  {
+   "default": "0",
+   "fieldname": "same_county",
+   "fieldtype": "Check",
+   "label": "Same County"
+  },
+  {
+   "default": "0",
+   "fieldname": "same_district",
+   "fieldtype": "Check",
+   "label": "Same District"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-20 15:12:15.705389",
+ "modified_by": "Administrator",
+ "module": "Diesel",
+ "name": "Location",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

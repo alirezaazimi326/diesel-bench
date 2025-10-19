@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-13 08:25:25.788440",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "records"
+ ],
+ "fields": [
+  {
+   "fieldname": "records",
+   "fieldtype": "JSON",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Records"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-21 15:36:32.781658",
+ "modified_by": "Administrator",
+ "module": "Diesel",
+ "name": "Barbarg History",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

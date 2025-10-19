@@ -1,0 +1,33 @@
+{
+ "chart_name": "Hourly Logs Counter",
+ "chart_type": "Report",
+ "creation": "2025-06-02 16:27:04.489851",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2025-06-02 16:29:02.372273",
+ "modified_by": "Administrator",
+ "module": "Diesel",
+ "name": "Hourly Logs Counter",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Hourly Barbarg Log",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "hour",
+ "y_axis": [
+  {
+   "color": "#449CF0",
+   "y_field": "total_logs"
+  }
+ ]
+}

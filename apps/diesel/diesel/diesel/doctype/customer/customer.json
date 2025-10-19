@@ -1,0 +1,196 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-14 23:30:55.110024",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "phone_number",
+  "password",
+  "start_date",
+  "remaining_duration",
+  "column_break_rxjx",
+  "bot_running",
+  "customer_type",
+  "pay_status",
+  "section_break_xajg",
+  "column_break_yzoo",
+  "days_to_add",
+  "column_break_qzmu",
+  "license_start_date",
+  "days_remaining",
+  "column_break_knlq",
+  "license_status",
+  "section_break_yztf",
+  "total_pays",
+  "total_invoices",
+  "column_break_ionr",
+  "servers_number",
+  "real_servers_number",
+  "server_status",
+  "message"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Full Name"
+  },
+  {
+   "bold": 1,
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password"
+  },
+  {
+   "fieldname": "remaining_duration",
+   "fieldtype": "Duration",
+   "label": "Remaining Duration"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "start_date"
+  },
+  {
+   "fieldname": "column_break_rxjx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "bot_running",
+   "fieldtype": "Check",
+   "label": "Bot Running"
+  },
+  {
+   "fieldname": "customer_type",
+   "fieldtype": "Select",
+   "label": "Customer Type",
+   "options": "Free\nBuy\nRent\nTest\nSub"
+  },
+  {
+   "fieldname": "pay_status",
+   "fieldtype": "Select",
+   "label": "Pay Status",
+   "options": "Not Paid\nPartial\nFully paid"
+  },
+  {
+   "fieldname": "section_break_yztf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_invoices",
+   "fieldtype": "Int",
+   "label": "Total Invoices"
+  },
+  {
+   "fieldname": "column_break_ionr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_pays",
+   "fieldtype": "Int",
+   "label": "Total Pays"
+  },
+  {
+   "fieldname": "section_break_xajg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_yzoo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qzmu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "license_start_date",
+   "fieldtype": "Date",
+   "label": "License Start Date"
+  },
+  {
+   "fieldname": "column_break_knlq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "license_status",
+   "fieldtype": "Select",
+   "label": "License Status",
+   "options": "Active\nRequires Charging\nClose"
+  },
+  {
+   "fieldname": "days_to_add",
+   "fieldtype": "Int",
+   "label": "Days To Add"
+  },
+  {
+   "fieldname": "days_remaining",
+   "fieldtype": "Int",
+   "label": "Days Remaining"
+  },
+  {
+   "fieldname": "servers_number",
+   "fieldtype": "Int",
+   "label": "Servers Number"
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Small Text",
+   "label": "Message"
+  },
+  {
+   "default": "Not Pay",
+   "fieldname": "server_status",
+   "fieldtype": "Select",
+   "label": "Server Status",
+   "options": "Not Pay\nIn Progress\nDone"
+  },
+  {
+   "fieldname": "real_servers_number",
+   "fieldtype": "Int",
+   "label": "Real Servers Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-15 00:25:06.229684",
+ "modified_by": "Administrator",
+ "module": "Diesel",
+ "name": "Customer",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,63 @@
+# Frappe Bench - Complete Ignore List
+
+# Sites - EXCLUDE EVERYTHING except config files
+sites/*
+!sites/apps.txt
+!sites/common_site_config.json
+!sites/.gitkeep
+!sites/sites.txt
+
+# Specifically exclude all site data
+sites/*/private/
+sites/*/public/
+sites/*/assets/
+sites/*/backups/
+sites/*/error_snapshot/
+sites/*/locks/
+sites/*/task-logs/
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+env/
+.python-version
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
+bench.log
+
+# Database and backups
+*.db
+*.sqlite3
+*.sql
+*.sql.gz
+*.backup
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Bench specific
+config/supervisor.conf
+config/nginx.conf
+config/redis.conf

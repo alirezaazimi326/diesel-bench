@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:ip",
+ "creation": "2025-06-06 23:38:22.438020",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ip",
+  "max_worker",
+  "preferred_bot_owner",
+  "enable",
+  "captcha_language",
+  "column_break_tkfd",
+  "server_name",
+  "provider",
+  "worker_interval",
+  "number",
+  "server_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "ip",
+   "fieldtype": "Data",
+   "label": "IP",
+   "unique": 1
+  },
+  {
+   "default": "6",
+   "fieldname": "max_worker",
+   "fieldtype": "Int",
+   "label": "Max Worker"
+  },
+  {
+   "fieldname": "preferred_bot_owner",
+   "fieldtype": "Data",
+   "label": "Preferred Bot Owner"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable",
+   "fieldtype": "Check",
+   "label": "Enable"
+  },
+  {
+   "fieldname": "column_break_tkfd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "server_name",
+   "fieldtype": "Data",
+   "label": "Server Name"
+  },
+  {
+   "fieldname": "provider",
+   "fieldtype": "Select",
+   "label": "Provider",
+   "options": "ParsPack\nParsVDS\nParsVDS Azimi\nParsVDS Alireza\nLocal\nTehranVPS\nTehranDedicate"
+  },
+  {
+   "default": "5",
+   "fieldname": "worker_interval",
+   "fieldtype": "Int",
+   "label": "Worker Interval"
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Int",
+   "label": "Number"
+  },
+  {
+   "fieldname": "captcha_language",
+   "fieldtype": "Select",
+   "label": "Captcha Language",
+   "options": "Farsi\nEnglish"
+  },
+  {
+   "fieldname": "server_status",
+   "fieldtype": "Select",
+   "label": "Server Status",
+   "options": "Online\nOffline\nNeed To Change Language"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-11 02:25:02.923776",
+ "modified_by": "Administrator",
+ "module": "Diesel",
+ "name": "Queue Worker Config",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

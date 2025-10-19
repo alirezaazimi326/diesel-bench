@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-06-01 20:42:19.379807",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "source_detail",
+  "destination_detail"
+ ],
+ "fields": [
+  {
+   "fieldname": "source_detail",
+   "fieldtype": "Data",
+   "label": "Source Detail"
+  },
+  {
+   "fieldname": "destination_detail",
+   "fieldtype": "Data",
+   "label": "Destination Detail"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-01 20:45:39.983485",
+ "modified_by": "Administrator",
+ "module": "Diesel",
+ "name": "Needed Location",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
